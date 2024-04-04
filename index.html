@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Basics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="main">
+      <div id="container">
+        <div id="content" role="main">
+          <h1><strong>HTML Elements</strong></h1>
+          <hr style="border-top:1px solid grey;">
+          <strong><a href="https://chat.openai.com/" target="_blank">Home</a></strong>
+          &nbsp
+          &nbsp
+          &nbsp
+          <strong><a href="https://chat.openai.com/" target="_blank">Header</a></strong>
+          &nbsp
+          &nbsp
+          &nbsp
+          <strong><a href="https://chat.openai.com/" target="_blank">Table</a></strong>
+          &nbsp
+          &nbsp
+          &nbsp
+          <strong><a href="https://chat.openai.com/" target="_blank">List</a></strong>
+          &nbsp
+          &nbsp
+          &nbsp
+          <strong><a href="https://chat.openai.com/" target="_blank">Text formats</a></strong>
+          &nbsp
+          &nbsp
+          &nbsp
+          <strong><a href="https://chat.openai.com/" target="_blank">Blockquotes</a></strong>
+          <hr style="border-top:1px solid grey;">
+          <small>Pay attention to h1 tag inside section element. Font-size for h1 is the same as font-size for h2, because we have to use only one h1 on the page, and it is commonly used inside header</small>
+          <h2>Header 2</h2>
+          <h3>Header 3</h3>
+          <h4>Header 4</h4>
+          <h5>Header 5</h5>
+          <h6>Header 6</h6>
+          <hr style="border-top:1px solid grey;">
+          <p>
+            Lorem ipsum dolor sit amet, <a href="https://chat.openai.com/" target="_blank">test link</a> adipiscing elit. <strong>This is strong.</strong> Nullam dignissim convallis est. Quisque aliquam. <i>This is emphasized.</i> Donec faucibus.
+          Nunc iaculis suscipit dui. 5<sup>3</sup>=125. Water is H<sub>2</sub>O. Nam sit amet sem. Aliquam libero nisi, imprediet at, tincidunt nec, gravida vehicula,nils. <i>The New York Times </i>(That`s a ciation). <u>Underline</u> Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspwndisse quam sem, consequat at, commodo vitae, feugiat in,nunc. Morbi imperdiet augue quis tellus.
+          </p>
+          <p>
+            <abbr title="HyperText Markup Language">HTML</abbr> and <abbr title="Cascading Style Sheets">CSS</abbr> are or tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quils tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo,eu volutpat enim diam eget metus. To copy a file type <samp>COPY</samp> <em>filename.</em> <s>Dinner`s at 5:00.</s> <mark>Let`s make that 7.</mark> This <s>text</s> has been struck.
+          </p>
+          <hr style="border-top:1px solid grey;">
+          <h2>Table</h2>
+          <table border="1">
+            <tr>
+              <th>Header</th>
+              <th>Header</th>
+              <th>Header</th>
+            </tr>
+            <tr>
+              <td>Lviv</td>
+              <td>Kyiv</td>
+              <td>Kharkiv</td>
+            </tr>
+            <tr>
+              <td>Odessa</td>
+              <td>Zhytomyr</td>
+              <td>Dnipropetrovsk</td>
+            </tr>
+            <tr>
+              <td>Sumy</td>
+              <td>Chernivtsi</td>
+              <td>Lutsk</td>
+            </tr>
+          </table>
+          <h2>Unordered List</h2>
+          <ul>
+            <li>List item 1</li>
+            <li>List item 2</li>
+              <ul><li>Some nested list item 1</li></ul>
+            <li>List item 3</li>
+          </ul>
+          <h2>Ordered List</h2>
+          <ol>
+            <li>List item 1</li>
+            <li>List item 2</li>
+               <ol type="A">
+                 <li> Some nested list item 1</li>
+               </ol>
+            <li>List item 3</li>
+          </ol>
+          <h3>Definition List</h3>
+          <strong>defines terms 1</strong>
+          <h5>description 1</h5>
+          <strong>defines terms 2</strong>
+          <h5>description 2</h5>
+          <h5>Details <button type="button" name="show_more">HTML ▾</button></h5>
+          <hr style="border-top:1px solid grey;">
+          <h2>Text formats</h2>
+          <h3>Article Text</h3>
+          <article>
+            <h2>Article title</h2>
+            <h3>Article description</h3>
+          </article>
+          <small><h2>Preformatted Text</h2></small>
+          <pre><strong>Text</strong><p>  in a pre element<br>    is displayed in a fixed-width<br>font, and it preserves<br>both           space and<br>    line breaks</p>
+          </pre>
+          <small><h2>Code</h2></small>
+          <pre>
+            <p>.wrapper {<br>  display: flex;<br>  vertical-align: middle;<br>  justify-content: center;<br>}
+            </p>
+          </pre>
+          <h2>Blockquotes</h2>
+          <p>Let`s keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.</p>
+          <blockquote>"If you go back a few hundred years, what we take for granted today would seem like magic-being able to talk to people over long distance, to transmit images,flying, accessing vast amounts of data like an oracle. These are all things that would have been considered magic, a few hundred years ago."<br><strong><a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%81%D0%BA,_%D0%98%D0%BB%D0%BE%D0%BD" target="_blank">Elon Musk</a></strong></blockquote>
+          <hr style="border-top:1px solid grey;">
+          <p align="right">
+          <label for="name">First name : </label><input type="text" id="name" name="name"><br><br>
+
+
+          <label for="Surname">Surname : </label><input type="Surname" id="Surname" name="Surname"><br><br>
+
+
+          <label for="email">Email : </label><input type="email" id="email" name="email"><br><br>
+
+
+          <label for="message"></label><textarea id="message" name="message" rows="8" cols="50"></textarea><br><br>
+
+
+          <input type="submit" value="Submit">
+          </p>
+          <footer><p>© Copyright Epam Systems</p></footer>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
